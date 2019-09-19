@@ -2,6 +2,7 @@ package Opgave_3_24;
 
 public class MyClass {
 
+    //Klasse variabler
     static int firstNumber;
     static int secondNumber;
     static String firstString;
@@ -9,17 +10,18 @@ public class MyClass {
 
     public static void main(String[] args) {
 
-        firstNumber = (int) (Math.random() * 13 + 1);
-        secondNumber = (int) (Math.random() * 4 + 1);
-        PickNumber();
-        GenerateType();
+        firstNumber = (int) (Math.random() * 13 + 1); //Random nummer mellem 1 og 13
+        secondNumber = (int) (Math.random() * 4 + 1); //Random nummer mellem 1 og 4
+        PickNumber(); //Vi kalder metoden
+        GenerateType(); //Vi kalder metoden
         System.out.println("******************************");
         System.out.println("** Dit kort er: " + firstString  + secondString);
         System.out.println("******************************");
-        madeBy();
+        madeBy(); //Vi kalder metoden
 
     }
 
+    //Vores metode til at finde nummert ud fra det random nummer vi har genereret mellem 1 og 13
     static void PickNumber() {
         switch (firstNumber){
             case 1:
@@ -64,6 +66,7 @@ public class MyClass {
         }
     }
 
+    //Vores metode til at finde typen af kort ud for det tal der er genereret mellem 1 og 4
     static void GenerateType() {
         switch (secondNumber) {
             case 1:
