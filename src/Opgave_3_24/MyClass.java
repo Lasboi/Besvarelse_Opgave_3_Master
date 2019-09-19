@@ -14,7 +14,8 @@ public class MyClass {
         PickNumber();
         GenerateType();
         System.out.println("******************************");
-        System.out.println("** Dit kort er: " + firstString + " " + secondString);
+        System.out.println("** Dit kort er: " + firstString  + secondString);
+        System.out.println("******************************");
         madeBy();
 
     }
@@ -23,30 +24,43 @@ public class MyClass {
         switch (firstNumber){
             case 1:
                 firstString = "Ace ";
+                break;
             case 2:
                 firstString = "2 ";
+                break;
             case 3:
                 firstString = "3 ";
+                break;
             case 4:
                 firstString = "4 ";
+                break;
             case 5:
                 firstString = "5 ";
+                break;
             case 6:
                 firstString = "6 ";
+                break;
             case 7:
                 firstString = "7 ";
+                break;
             case 8:
                 firstString = "8 ";
+                break;
             case 9:
                 firstString = "9 ";
+                break;
             case 10:
                 firstString = "10 ";
+                break;
             case 11:
                 firstString = "Jack ";
+                break;
             case 12:
                 firstString = "Queen ";
+                break;
             case 13:
                 firstString = "King ";
+                break;
         }
     }
 
