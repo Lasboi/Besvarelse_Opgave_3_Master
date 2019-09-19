@@ -14,7 +14,7 @@ public class MyClass {
         int number = scanner.nextInt(); //Vi tager input fra brugeren og sætter værdien som int
         System.out.println("******************************");
 
-        if (number % 2 == 0) { //Vi laver crazy math for at se om tallet er lige eller ulige
+        if (number % 2 == 0) { //Vi laver crazy math for at se om tallet er lige eller ulige Yay!
             System.out.println("** " + number + " er et lige tal.");
         }
         else
